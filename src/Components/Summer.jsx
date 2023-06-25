@@ -52,15 +52,17 @@ const Summer = () => {
   return (
     <div className=' flex justify-center items-center flex-col'>
       <div>
-        <form action="" onSubmit={handleSumit} className='flex items-center'>
-        
+        <form action="" onSubmit={handleSumit} className='flex items-center max-sm:flex-col max-md:justify-center max-sm:items-center'>
+      
+        <div className='max-sm:mb-6'>
         <RxCopy size={27} color='#0000ea' className=' absolute my-2 ml-3 w-5' />
         {/* <input type="text" name="summer"placeholder='Enter Your Link' id="summered" className=' w-full h-16 rounded-e-full p-8' /> */}
         <input type="url" name="urllink" 
         placeholder='Enter a Url' 
-        id="linksummer" required value={article.url} onChange={(e) => {setarticle({...article, url: e.target.value})}} className='pl-10 w-96 h-16 rounded-e-full p-8 text-black shadow-2xl peer'/>
+        id="linksummer" required value={article.url} onChange={(e) => {setarticle({...article, url: e.target.value})}} className='pl-10 w-96 h-16 rounded-e-full p-8 text-black shadow-2xl peer max-sm:w-48 '/>
         
-        <button type="submit" className=' pr-5 border-2 pl-5 pt-2 pb-2 rounded-full ml-6  hover:bg-blue-950/60 cursor-pointer peer-focus:border-gray-700 peer-focus:text-pink-700'>Summerize</button>
+        </div>
+        <button type="submit" className=' pr-5 border-2 pl-5 pt-2 pb-2 rounded-full ml-6  hover:bg-blue-950/60 cursor-pointer peer-focus:border-gray-700 peer-focus:text-pink-700 max-sm:text-sm'>Summerize</button>
         </form>
          {/* browse url history */}
          

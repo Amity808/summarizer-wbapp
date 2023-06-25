@@ -7,9 +7,9 @@ const NavBar = () => {
         Celo Summer
       </div>
       <div className='flex '>
-        <a href="#" className='pr-5 border-2 pl-5 pt-2 pb-2 rounded-full mr-4 hover:bg-blue-950/60 cursor-pointer'>Login</a>
-        <a href="#" className='pr-5 border-2 pl-5 pt-2 pb-2 rounded-full mr-4 hover:bg-blue-950/60 cursor-pointer'>Sign In</a>
-        <a href="#" className='pr-5 border-2 pl-5 pt-2 pb-2 rounded-full mr-4 hover:bg-blue-950/60 cursor-pointer'>Sign Up</a>
+        {/* <a href="#" className='pr-5 border-2 pl-5 pt-2 pb-2 rounded-full mr-4 hover:bg-blue-950/60 cursor-pointer'>Login</a> */}
+        <a href="#" className='pr-5 border-2 pl-5 pt-2 pb-2 rounded-full mr-4 hover:bg-blue-950/60 cursor-pointer'>Other Features <br /> Coming soon</a>
+        {/* <a href="#" className='pr-5 border-2 pl-5 pt-2 pb-2 rounded-full mr-4 hover:bg-blue-950/60 cursor-pointer'>Sign Up</a> */}
       </div>
     </div>
   )
